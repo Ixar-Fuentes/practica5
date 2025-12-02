@@ -1,0 +1,29 @@
+{
+  "name": "practica-5",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron",
+    "build": "electron-builder --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^39.2.4",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "build": {
+    "appId": "com.ixar.practica5",
+    "productName": "Practica 5",
+   "publish" : {
+      "provider": "github",
+      "owner": "ixar",
+      "repo": "Practica-5"
+    }
+  }
+}
